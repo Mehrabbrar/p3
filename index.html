@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/actions/todo.js">
+    <link rel="stylesheet" href="contact.js">
+    <link rel="stylesheet" href="reducer.js">
+    <title> Task Management Systemm</title>
+</head>
+<body>
+    <header>
+        <h1>Task Management System</h1>
+    </header>
+    <form>
+        <input type="text" placeholder="Enter The Work" class="todo_input" />
+        <button class="todo_button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="bar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.js">Contact</a>
+              </li> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="todo_container">
+        <ul class="todo_list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <footer class="footer bg-light">
+        <div class="container text-center">
+          
+        </div>
+    </footer>
+
+        copyright &copy ; 2024 Task Management System
+</footer>
+
+
+
+
+</body>
+</html>
